@@ -1,0 +1,131 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.8rem;
+    font-weight: lighter;
+}
+.nav-item{
+    font-size: 1rem;
+    padding: 0 18px;
+    font-family: 'Montserrat-light', sans-serif;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.img1{
+    transform: rotate(20deg);
+    width: 20%;
+    position: absolute;
+
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.char{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    font-size: 4rem;
+    margin-bottom: 25px;
+    color: #FF6767;
+
+}
+.icon:hover{
+    color: #FF2626;
+}
+.fh{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.fp{
+    font-weight: normal;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 20% 2%;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+}
+.testimonial-image{
+    width: 8%;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+.img-press{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+.carousel-item{
+    margin-top: -120px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.prince-head{
+    color: black;
+}
+@media (max-width: 1050px){
+    #tittle{
+        text-align: center;
+    }
+    .img1{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        align-items: center;
+    }
+}
+#cta{
+     background-color: #ff4c68 ;
+     padding: 7% 15%;
+     align-items: center;
+     text-align: center;
+}
+.cta-header{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    padding: 3% 7%;
+}
+.icon-footer{
+    padding: 3% 1%;
+}
+
+
